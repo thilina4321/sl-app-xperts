@@ -1,9 +1,35 @@
-.dark{
-    width: 100%;
-    color: white;
-    background-color: black;
+.dark {
+  width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
 }
-.section{
-    width: 80%;
-    margin: auto;
+.section {
+  width: 80%;
+  margin: auto;
+}
+
+.contact_us {
+  text-align: center;
+  margin: 20px;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  color: grey;
+}
+
+.contact__medias {
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  width: 50%;
+  margin: auto;
+}
+
+.copy_right {
+  display: flex;
+  justify-content: center;
 }
