@@ -4,7 +4,7 @@ const SliderComp = () => {
   return (
     <div>
       <h1 className={classes.brand}>SL AppXperts</h1>
-      <img className={classes.slider} src={logo} />
+      <img className={classes.slider} src={logo} alt="logo" />
     </div>
   );
 };

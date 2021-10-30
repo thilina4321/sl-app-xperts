@@ -1,25 +1,17 @@
-import { useState } from "react";
-
 import {
   Animator,
   ScrollContainer,
   ScrollPage,
   batch,
-  Fade,
   FadeIn,
-  Move,
   MoveIn,
-  MoveOut,
-  Sticky,
   StickyIn,
   ZoomIn,
 } from "react-scroll-motion";
 
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-const FadeUp = batch(Fade(), Move(), Sticky());
 
 const WhyWe = () => {
-  const [animationClass, setAnimationClass] = useState(false);
   return (
     <div
       style={{

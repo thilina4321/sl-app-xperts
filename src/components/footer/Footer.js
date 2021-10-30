@@ -11,7 +11,11 @@ const Footer = () => {
 
         <div className={classes.contact__medias}>
           <FaceBook />
-          <a href="mailto:dilshanthilina53@gmail.com" target="_blank">
+          <a
+            href="mailto:dilshanthilina53@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
             <Google />
           </a>
         </div>
