@@ -1,0 +1,9 @@
+.dark{
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+.section{
+    width: 80%;
+    margin: auto;
+}

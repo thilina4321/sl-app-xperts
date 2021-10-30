@@ -17,17 +17,14 @@ code {
     monospace;
 }
 
-.about {
-  animation: moving 3s;
+.dark-background {
+  width: "100%";
+  background-color: "black";
+  color: "white";
 }
 
-@keyframes moving {
-  0% {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+
+.section{
+  width: 80%;
+  margin: auto;
 }
