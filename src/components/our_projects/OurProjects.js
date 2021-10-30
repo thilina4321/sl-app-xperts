@@ -4,6 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 import logo from "../../assets/logo.jpg";
+import place from "../../assets/place.png";
 
 const projects = [
   {
@@ -17,6 +18,12 @@ const projects = [
     name: "Chat App",
     logo,
     des: "This is a chat app we create with react and firebase",
+  },
+  {
+    id: 3,
+    name: "Greate Places",
+    logo: place,
+    des: "This is the greate places apps IOS look",
   },
 ];
 
