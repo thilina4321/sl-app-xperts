@@ -1,0 +1,13 @@
+.slider {
+  height: 90vh;
+  width: 100%;
+}
+
+.brand {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  z-index: 10;
+  color: white;
+  transform: translate(-50%, -50%);
+}
